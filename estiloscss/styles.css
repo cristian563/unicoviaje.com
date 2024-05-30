@@ -1,0 +1,112 @@
+body, html {
+    
+    margin:0;
+    font-family: arial;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado superior */
+.encabezado-superior {
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+/* Estilos para el logotipo */
+.logounicoviaje img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Estilos para los botones */
+.botones .button{
+    background-color: #007bff;
+    color: #d82929;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Estilos para el título */
+.encabezado-superior h1 {
+    text-align:center;
+    margin: 0px;
+}
+
+/*formulario de registro */
+.formulario-registro {
+    text-align: center;
+    background: #ccc;
+    max-width: 600px; 
+    margin:  auto; 
+}
+
+.formulario-registro h2{
+    color: #4192DD;
+}
+
+/* campos de entrada */
+.formulario-registro input {
+    align-items: 50px;
+    width: 50%;
+    padding: 1%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+/* botones del formulario */
+.formulario-registro .botones-container {
+    display: flex;
+}
+
+.formulario-registro .boton {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #0a70d0;
+    color: #f43131;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.formulario-registro .boton:last-child {
+    margin-right: 0;
+}
+
+/* logos de redes 
+sociales */
+.redes-sociales img {
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+    display: flex;
+    
+}
+
+.botonesdenavegacion.botonesdenavegacion{
+background-color: aqua;
+
+}
+.encabezado-superior h1 {
+    text-align: center;
+    margin: 0; 
+    color: #fcfcfc;
+}
+.logosredessociales{
+    display: flex;
+    justify-content: center;
+}
+/* me falta darle color a los botones registrar y regresar tambien activar la funcion con el cursor encima aparece la mano, le aplique estos comentarios para que se haga mas facil identificar cada seccion amigo buena suerte */

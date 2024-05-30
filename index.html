@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="estiloscss/styles.css">
+</head>
+
+</body>
+            <div  class="container">
+
+
+                        <div class="encabezado-superior">
+                                <div class="logounicoviaje">
+                                        <img src="imagenes/logo.png" alt="Logounicoviaje">
+                                        </div>
+
+                                        <div class="botondemas"><button>mas</button>
+                                        </div>
+                                        
+                                        <div class="botoningresar"><button>ingresar</button>
+                                        </div>       
+                                        
+                                        <div>
+                                        <h1>REGÍSTRATE AHORA en UnicoViaje.com</h1>
+                                        </div>
+                                </div>
+                        </div>
+                
+                        <!-- espacio para ingresar datos del formulario -->
+                        <div>  
+                                <div class="formulario-registro">
+                                <h2>Registro de Usuario</h2>
+                                <form action="action="procesar_registro.php"method="post">
+                                    <!-- ojo pendiente por enlazar  procesar datos de registro -->
+
+                                    <label for="nombres"></label>
+                                    <input type="text" id="nombres" name="Nombres"placeholder="Nombres" required><br><br>
+                                    
+                                    <label for="apellidos"></label>
+                                    <input type="text" id="apellidos" name="apellidos"placeholder="apellidos" required><br><br>
+                                    
+                                    <label for="cedula"></label>
+                                    <input type="text" id="cedula" name="cedula"placeholder="cedula" required><br><br>
+                                    
+                                    <label for="telefono"></label>
+                                    <input type="telefono" id="telefono" name="telefono" placeholder="telefono" required><br><br>
+                                    
+                                    <label for="email"></label>
+                                    <input type="email" id="email" name="email" placeholder="correo" required><br><br>
+                                    
+                                    <label for="fecha_nacimiento"></label>
+                                    <input type="date" id="fecha_nacimiento" name="email"placeholder="fecha_nacimiento" required><br><br>
+                                    
+                                    <label for="contraseña"></label>
+                                    <input type="password" id="contraseña" name="contraseña"placeholder="contraseña" required><br><br>
+                                    
+                                    <label for="verificar_contraseña"></label>
+                                    <input type="password" id="verificar_contraseña" name="verificar_contraseña"placeholder="verificar_contraseña" required>
+
+                                    <br><span> minimo 10 caracteres</span> <br>
+
+                                    <!-- Botones del formulario -->
+                                    <button type="button">Regresar</button>
+                                    <button type="submit">Registrar</button>
+                                </form>
+                                </div>
+                        </div>
+                            <!-- Logos de  redes sociales-->
+                            <div>
+                                <h3>Registrarme con:</h3>
+                                <div class="logosredessociales"
+                                <a href="https://www.facebook.com/">
+                                <img src="logos/facebook.png" alt="Logo de Facebook">
+                                </a>
+
+                                <img src="logos/instagram.png" alt="Logo de Instagram"> 
+
+                                <img src="logos/tok.png" alt="Logo de TikTok"> 
+
+                                <img src="logos/google.png" alt="Logo de Google"> 
+                            </div>
+                            </div>
+            </div>               
+</body>
+</html>
